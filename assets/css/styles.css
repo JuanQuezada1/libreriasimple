@@ -1,0 +1,19 @@
+.libros-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.libro {
+    background-color: gainsboro;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.libro.nodisponible {
+    background-color: rgb(255, 211, 211);
+}
+
+.libro.disponible {
+    background-color: rgb(185, 213, 185);
+}
